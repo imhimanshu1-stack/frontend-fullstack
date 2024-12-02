@@ -53,7 +53,6 @@ export default {
     validateInputs() {
       let isValid = true;
 
-      // Validate email
       if (!this.formData.email) {
         this.emailError = "Email is required.";
         isValid = false;
@@ -68,7 +67,6 @@ export default {
         this.emailError = null;
       }
 
-      // Validate password
       if (!this.formData.password) {
         this.passwordError = "Password is required.";
         isValid = false;
