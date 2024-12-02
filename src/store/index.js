@@ -40,7 +40,7 @@ export default createStore({
 
       axios({
         method: "GET",
-        url: "http://fullstack-backend-env.eba-uf6tsggq.eu-north-1.elasticbeanstalk.com/api/v1/fetch-all-products",
+        url: "https://backend-fullstack-a6fo.onrender.com/api/v1/fetch-all-products",
         headers: {
           Authorization: `Bearer ${token}`,
         },
@@ -59,7 +59,7 @@ export default createStore({
 
       axios({
         method: "POST",
-        url: "http://fullstack-backend-env.eba-uf6tsggq.eu-north-1.elasticbeanstalk.com/api/v1/add-to-cart",
+        url: "https://backend-fullstack-a6fo.onrender.com/api/v1/add-to-cart",
         headers: {
           Authorization: `Bearer ${token}`,
         },
@@ -85,7 +85,7 @@ export default createStore({
 
       axios({
         method: "GET",
-        url: "http://fullstack-backend-env.eba-uf6tsggq.eu-north-1.elasticbeanstalk.com/api/v1/view-cart",
+        url: "https://backend-fullstack-a6fo.onrender.com/api/v1/view-cart",
         headers: {
           Authorization: `Bearer ${token}`,
         },
@@ -103,7 +103,7 @@ export default createStore({
 
       axios({
         method: "POST",
-        url: "http://fullstack-backend-env.eba-uf6tsggq.eu-north-1.elasticbeanstalk.com/api/v1/remove-item-from-cart",
+        url: "https://backend-fullstack-a6fo.onrender.com/api/v1/remove-item-from-cart",
         headers: {
           Authorization: `Bearer ${token}`,
         },

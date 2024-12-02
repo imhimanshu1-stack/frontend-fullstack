@@ -81,7 +81,7 @@ export default {
         console.log("Login Data:", this.formData);
         axios({
           method: "POST",
-          url: "http://fullstack-backend-env.eba-uf6tsggq.eu-north-1.elasticbeanstalk.com/api/v1/login",
+          url: "https://backend-fullstack-a6fo.onrender.com/api/v1/login",
           data: {
             email: this.formData.email,
             password: this.formData.password,

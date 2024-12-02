@@ -77,7 +77,7 @@ export default {
       if (this.validateInputs()) {
         axios({
           method: "PUT",
-          url: "http://fullstack-backend-env.eba-uf6tsggq.eu-north-1.elasticbeanstalk.com/api/v1/forgot-password",
+          url: "https://backend-fullstack-a6fo.onrender.com/api/v1/forgot-password",
           data: {
             email: this.formData.email,
             password: this.formData.newPassword,

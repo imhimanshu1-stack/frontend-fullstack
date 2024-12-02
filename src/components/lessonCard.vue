@@ -3,7 +3,7 @@
     <img
       class="lesson-img"
       :src="
-        `http://fullstack-backend-env.eba-uf6tsggq.eu-north-1.elasticbeanstalk.com/${lesson.photo}` ||
+        `https://backend-fullstack-a6fo.onrender.com/${lesson.photo}` ||
         './123.png'
       "
       alt="hello"
