@@ -2,7 +2,10 @@
   <div class="lesson-card">
     <img
       class="lesson-img"
-      :src="`http://localhost:3300/${lesson.photo}` || './123.png'"
+      :src="
+        `http://fullstack-backend-env.eba-uf6tsggq.eu-north-1.elasticbeanstalk.com/${lesson.photo}` ||
+        './123.png'
+      "
       alt="hello"
     />
     <div class="subject-class">
@@ -45,6 +48,9 @@ export default {
 
 .lesson-card img {
   width: 100%;
+  height: 300px;
+  object-fit: cover;
+  object-position: top;
 }
 
 .subject-class {

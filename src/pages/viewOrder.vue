@@ -42,7 +42,7 @@ export default {
       const token = localStorage.getItem("token");
       axios({
         method: "GET",
-        url: "http://localhost:3300/api/v1/view-order",
+        url: "http://fullstack-backend-env.eba-uf6tsggq.eu-north-1.elasticbeanstalk.com/api/v1/view-order",
         headers: {
           Authorization: `Bearer ${token}`,
         },

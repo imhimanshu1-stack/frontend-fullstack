@@ -40,7 +40,7 @@ export default createStore({
 
       axios({
         method: "GET",
-        url: "http://localhost:3300/api/v1/fetch-all-products",
+        url: "http://fullstack-backend-env.eba-uf6tsggq.eu-north-1.elasticbeanstalk.com/api/v1/fetch-all-products",
         headers: {
           Authorization: `Bearer ${token}`,
         },
@@ -59,7 +59,7 @@ export default createStore({
 
       axios({
         method: "POST",
-        url: "http://localhost:3300/api/v1/add-to-cart",
+        url: "http://fullstack-backend-env.eba-uf6tsggq.eu-north-1.elasticbeanstalk.com/api/v1/add-to-cart",
         headers: {
           Authorization: `Bearer ${token}`,
         },
@@ -85,7 +85,7 @@ export default createStore({
 
       axios({
         method: "GET",
-        url: "http://localhost:3300/api/v1/view-cart",
+        url: "http://fullstack-backend-env.eba-uf6tsggq.eu-north-1.elasticbeanstalk.com/api/v1/view-cart",
         headers: {
           Authorization: `Bearer ${token}`,
         },
@@ -103,7 +103,7 @@ export default createStore({
 
       axios({
         method: "POST",
-        url: "http://localhost:3300/api/v1/remove-item-from-cart",
+        url: "http://fullstack-backend-env.eba-uf6tsggq.eu-north-1.elasticbeanstalk.com/api/v1/remove-item-from-cart",
         headers: {
           Authorization: `Bearer ${token}`,
         },

@@ -104,7 +104,7 @@ export default {
         console.log("Register Data:", this.formData);
         axios({
           method: "POST",
-          url: "http://localhost:3300/api/v1/register",
+          url: "http://fullstack-backend-env.eba-uf6tsggq.eu-north-1.elasticbeanstalk.com/api/v1/register",
           data: {
             name: this.formData.name,
             email: this.formData.email,
