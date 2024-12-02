@@ -97,9 +97,6 @@ export default {
         this.cartItems.length > 0
       );
     },
-    handleNavigate() {
-      this.$router.push("/view-order");
-    },
   },
   methods: {
     ...mapActions(["removeItemFromCart", "fetchCart", "clearCart"]),
@@ -140,6 +137,10 @@ export default {
       this.name = "";
       this.phone = "";
       this.showCheckoutForm = false;
+    },
+
+    handleNavigate() {
+      this.$router.push("/view-order");
     },
 
     removeItem(productId) {
